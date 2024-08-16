@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-08-15T22:02:28.527556" rpa="false" schemaversion="5">
+<suite id="s1" name="Prac 1" source="C:\Python\Scripts\My_robot_project\tests\test_func_1\prac_1.robot">
+<test id="s1-t1" name="Open Example page" line="10">
+<kw name="Open Browser">
+<msg time="2024-08-15T22:02:28.582005" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<status status="FAIL" start="2024-08-15T22:02:28.582005" elapsed="0.000000">No keyword with name 'Open Browser' found.</status>
+</kw>
+<status status="FAIL" start="2024-08-15T22:02:28.579498" elapsed="0.003784">No keyword with name 'Open Browser' found.</status>
+</test>
+<status status="FAIL" start="2024-08-15T22:02:28.527556" elapsed="0.056241"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Prac 1">Prac 1</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-15T22:02:28.576020" level="ERROR">Error in file 'C:\Python\Scripts\My_robot_project\tests\test_func_1\prac_1.robot' on line 3: Importing library 'Seleniumlibrary' failed: ModuleNotFoundError: No module named 'Seleniumlibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python\Scripts\robot.exe
+  C:\Python\python312.zip
+  C:\Python\DLLs
+  C:\Python\Lib
+  C:\Python
+  C:\Python\Lib\site-packages
+  C:\Python\Lib\site-packages\win32
+  C:\Python\Lib\site-packages\win32\lib
+  C:\Python\Lib\site-packages\Pythonwin</msg>
+</errors>
+</robot>
